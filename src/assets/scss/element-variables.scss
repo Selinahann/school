@@ -1,0 +1,25 @@
+$--color-primary: #007aff;
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+.el-alert.is-light {
+  .el-alert__closebtn {
+    color: $--color-primary;
+  }
+}
+.el-card.is-always-shadow {
+  box-shadow: none;
+}
+.border {
+  border: 0;
+}
+
+.el-card {
+  color: #fff;
+  border: 0;
+  .el-card__header {
+    border: 0;
+  }
+}
