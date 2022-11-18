@@ -19,6 +19,8 @@ yarn build
 ```
 yarn lint
 ```
+## 后端地址
+https://github.com/Selinahann/shool_api.git
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
